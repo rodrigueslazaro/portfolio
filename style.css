@@ -1,0 +1,77 @@
+header {
+    height: 300px;
+    background-color: #82a8e5;
+    margin: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+header h1 {
+    font-size: 3rem;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+header p {
+    margin-left: 100px;
+}
+
+header p span {
+    border-bottom: 1px solid yellow;
+}
+
+
+
+article {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    width: 100px;
+    height: 100vh;
+    background-color: red;
+}
+
+h2 {
+    margin-left: 20px;
+    padding-left: 8px;
+    border-radius: 4px;
+    font-size: 2rem;
+    border-left: 4px solid blue;
+}
+
+p {
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+
+.tech {
+    display: none;
+}
+
+.screenshot {
+    width: 800px;
+}
+
+.logo {
+    height: 100px;
+}
+
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+    display: none;
+}
+
+.slide {
+    height: 100px;
+}
